@@ -83,6 +83,13 @@ h2{
 	background-color: #FC6;
 }
 
+h3{
+	padding: 0.2em 1em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	background-color: #FC6;
+}
 .unit img{
 	text-align:center;
 	margin: 0 auto;
