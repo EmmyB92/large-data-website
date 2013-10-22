@@ -32,11 +32,10 @@ User testing was conducted by Emily Barclay on Oct.22nd between the times of 10:
 
 ### Andy Hamm
 
-- 
 - He found the quote of the day the fastest of the 3 reviewers
 - He was also the quickest to notice the link to the full article page
 - He knew how to navigate home though the icon in the top left corner
-- etc.
+
 
 ---
 
