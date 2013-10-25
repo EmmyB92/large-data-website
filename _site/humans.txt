@@ -1,0 +1,29 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Emily Barclay <emily_barclay@hotmail.com>
+Site: http://emilybarclay.ca
+GitHub: https://github.com/EmmyB92
+Twitter: @emilybarclay
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Wikipedia
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Dreamweaver
+- Git + GitHub
+
+
+## Hosting
+
+- Github <http://github.com>

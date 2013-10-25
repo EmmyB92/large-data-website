@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: http://EmmyB92/large-data-website/index.hmtl
+
+User-Agent: *
+#Disallow: /img
