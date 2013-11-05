@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Yoga Around the World</title>
-<link href="/css/general.css" rel="stylesheet">
+<link href="css/general.css" rel="stylesheet">
 <link href="/css/grid.css" rel="stylesheet">
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -26,10 +26,17 @@
 
 </head>
 
-<body>
-	<header>
-    <img class="logo" src="images/icon.png">
-	<nav>
+<body id="top">
+
+<ul class="skiplinks">
+<li><a href="#main">Skip to primary content</a></li>
+<li><a href="#complementary">Skip to secondary content</a></li>
+<li><a href="#navigation">Skip to navigation</a></li>
+</ul>
+
+	<header role="banner">
+    <img class="logo" src="images/icon.png" alt="yoga sun logo">
+	<nav role="navigation" id="navigation">
     	<ul>
         	<li><a href="/page3.html">Modern Western</a></li>
            <li><a href="/page2.html">Eastern Traditional</a></li>
@@ -38,7 +45,9 @@
     </nav>
 </header>
 	<article>
-    	<h1><p><em>Yoga Around the World</em></p></h1>
+    	 <main role="main">
+		<h1><p><em>Yoga Around the World</em></p></h1>
+		</main>
    </article>
    <div class="grid">
         	<div class="unit unit-l-1-2">
@@ -46,26 +55,35 @@
    <div class="grid">
    			</div></div>
         	<div class="unit unit-l-1-2">
-            <a href="page2.html"<div class="unit-spacer"><img class="flex-1" src="/images/lotus.png">
+            <a href="page2.html"<div class="unit-spacer"><img class="flex-1" src="/images/lotus.png" alt="lotus icon">
+			<aside role="complementary" id="complementary">
             <h2>Yoga Origins</h2></a>
+			</aside>
             <p>Begin here to learn about the ancient origins of yoga and everything you need to know to start or enhance your journey.</p>
             </div></div>
             	<div class="unit unit-l-1-2">
-                <div class="unit-spacer"><img class="flex-2" src="/images/pose.png">
-                <h2></h2>
+                <div class="unit-spacer"><img class="flex-2" src="/images/pose.png" alt="yoga pose icon">
+                <aside role="complementary" id="complementary">
+				<h2></h2>
                 <p><em>Pose of the Day</em> <br>Mountain Pose. Stand tall, strong and balanced over the Earth in the empowering and cleansing Standing Mountain Pose.</p>
+			</aside>	
               </div></div>
                 	<div class="unit unit-l-1-2">
-                    <a href="page3.html"<div class="unit-spacer"><img class="flex-3" src="/images/healing.png">
-                    <h2>Heal Yourself</h2></a>
+                    <a href="page3.html"<div class="unit-spacer"><img class="flex-3" src="/images/healing.png" alt="green lotus flower icon">
+                     <aside role="complementary" id="complementary">
+					<h2>Heal Yourself</h2></a>
                     <p>Try these stretches and work these techniques into your routines to experience relief from pain and stress every day.</p>
+					</aside>
                   </div></div>
                   	<div class="unit unit-l-1-2">
                     <div class="unit-spacer">
-                    <img class="flex-4" src="/images/om.png">
+                    <img class="flex-4" src="/images/om.png" alt="om symbol icon">
+					<aside role="complementary" id="complementary">
                     <h3>Yogi Wisdom</h3>
                     <p>Ego says, “Once everything falls into place, I will feel peace.” Spirit says, “Find your peace, and then everything will fall into place.”</p>
-                    	</div></div>
+					</aside>
+               </div>
+			</div>
    		</div>
 	<footer></p>
     </footer>
