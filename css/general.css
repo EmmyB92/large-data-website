@@ -216,8 +216,10 @@ nav{
 	padding-right:10px;
 	float: left;
 }
-.p{
-	padding: 1em;
+
+p{
+	padding: 2em;
+	font-size: 1.2em;
 }
 
 }
@@ -245,10 +247,10 @@ nav{
 	padding: 0 1em;
 }
 
-.p{
+p{ 
 	padding: 1em;
+	font-size: 1.4em;
 }
-
 }
 
 @media only screen and (min-width: 150em){
