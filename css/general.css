@@ -59,6 +59,10 @@ header{
 	max-width: 80px;
 }
 
+.flex-5{
+	width: 100%;
+}
+
 .flex-4{
 	float: left;
 	max-width: 100px;
@@ -82,7 +86,7 @@ header{
 .main-image{
 	width:100%;
 }
-
+	
 nav{
 	text-align:left;
 	padding:1em 0.5em;
