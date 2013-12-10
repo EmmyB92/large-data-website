@@ -160,7 +160,7 @@ p{
 h2{
 	padding: 0.2em 1em;
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	color: #033;
 	background-color: #FC6;
 }
@@ -213,6 +213,10 @@ nav{
 	height:150px;
 }
 
+h2{
+	font-size: 1.5em;
+}
+
 .unit img{
 	margin: 0 auto;
 	display: inline;
@@ -251,8 +255,12 @@ nav{
 	padding: 0 1em;
 }
 
-p{ 
-	padding: 1em;
+h2{
+	font-size: 1.5em;
+}
+
+.p{ 
+	padding: 3em;
 	font-size: 1.4em;
 }
 }
